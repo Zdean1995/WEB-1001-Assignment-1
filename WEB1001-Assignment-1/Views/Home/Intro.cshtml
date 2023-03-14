@@ -3,5 +3,17 @@
     ViewData["Title"] = "Intro";
 }
 
-<h1>Intro</h1>
+<h3>Zachary Dean</h3>
 
+<!--Refences: https://www.w3schools.com/tags/att_output_form.asp-->
+<form id="numform" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="number" id="a" name="a" value="0"><br />
+    <input type="number" id="b" name="b" value="0"><br />
+    <output form="numform" id="x" name="x" for="a+b">0</output><br />
+    <input type="submit">
+</form>
+
+@section Paragraph
+{
+    <p>some text</p>
+}
